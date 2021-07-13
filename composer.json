@@ -1,0 +1,17 @@
+{
+  "name": "inisire/data-object-bundle",
+  "type": "library",
+  "description": "",
+  "keywords": [],
+  "authors": [],
+  "require": {
+    "php": ">=8.0",
+    "inisire/data-object": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "inisire\\DataObject\\Bundle\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  inisire\DataObject\:
+    resource: '../../../../data-object/src/'
